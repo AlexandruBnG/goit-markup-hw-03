@@ -2,14 +2,16 @@
   --color: #fff;
 }
 .container-body {
-  width: 1600px;
+  width:1600px;
   margin: auto;
 }
 .container-main {
   width: 1600px;
   margin: auto;
+  
 }
 .main-navigation {
+
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 32px;
@@ -17,6 +19,7 @@
   margin-left: 93px;
   gap: 50px;
 }
+
 .mail-gsm-section {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -99,9 +102,11 @@ a:hover {
 }
 .efective-solution-section {
   background-color: #2f303a;
-  width: 1600px;
+  width: 100%;
   flex-shrink: 0;
   height: 600px;
+  
+  
 }
 h1 {
   font-family: Roboto;
@@ -113,8 +118,11 @@ h1 {
   color: #fff;
   padding-top: 200px;
   width: 696px;
-  margin: auto;
+  margin-top:0px;
+  margin-left:452px;
+  margin-bottom: 0px;
 }
+
 .index-button {
   width: 200px;
   height: 50px;
@@ -131,16 +139,18 @@ h1 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: unset;
   margin-left: 700px;
-  margin-top: 40px;
-  margin-bottom: 200px;
+  margin-right: 700px;
+  margin-top: 30px;
+  margin-bottom:200px;
+  
 }
 .index-button:focus {
-  font-family: inherit;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
 }
 .index-button:hover {
   cursor: pointer;
-  background-color: #188ce8;
+  background-color: #2196F3;
 }
 .paragraphs {
   background-color: var(--color);
@@ -150,7 +160,7 @@ h1 {
   line-height: 16px;
   letter-spacing: 0.03em;
   justify-content: space-around;
-  width: 1200px;
+  margin: left 0px;;
   padding-left: 215px;
 }
 .paragraphs ul {
@@ -190,16 +200,17 @@ p {
 }
 .img-person-section {
   background-color: var(--color);
-  width: 1200px;
   font-weight: 648px;
   top: 1449px;
+  margin-left: 215px;
 }
 .img-4-persons {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 215px;
+  padding-left:0px;
   padding-bottom: 94px;
   gap: 30px;
+  width: 1200px;
 }
 .title-our {
   color: #212121;
@@ -209,12 +220,12 @@ p {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  width: 1200px;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 718px;
+  padding-left: 510px;
   padding-top: 188px;
   padding-bottom: 50px;
+  width: 1200px;
 }
 .persons {
   gap: 30px;
@@ -226,7 +237,6 @@ p {
   font-weight: 700;
   line-height: 42px;
   letter-spacing: 0.03em;
-  width: 1200px;
   padding-left: 701px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -235,7 +245,8 @@ p {
 }
 .container-img-html {
   width: 1200px;
-  padding-left: 201px;
+  padding-left:0px;
+  margin-left:200px;
 }
 h3 {
   font-family: Roboto;
@@ -262,6 +273,7 @@ h3 {
   padding-left: 215px;
   padding-top: 28px;
   gap: 12px;
+  
 }
 .secondlogo {
   font-family: Raleway;
@@ -348,6 +360,7 @@ footer a {
 }
 .portofolio-btn {
   color: #212121;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -356,11 +369,17 @@ footer a {
   /* 162.5% */
   letter-spacing: 0.48px;
   border: unset;
+  padding-left:22px;
+  padding-right: 22px;
+  padding-top:6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+  gap:8px;
 }
 .portofolio-btn:hover {
-  font-family: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
-  background: #2196f3;
+  background: #2196F3;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -372,7 +391,7 @@ footer a {
   border: unset;
 }
 .portofolio-btn:focus {
-  font-family: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
   background: #2196f3;
 }
@@ -428,3 +447,4 @@ footer a {
 .container {
   border: 1px solid #eee;
 }
+
