@@ -100,7 +100,6 @@ a:hover {
 }
 .efective-solution-section {
   background-color: #2f303a;
-  width: 100%;
   flex-shrink: 0;
   height: 600px;
 }
