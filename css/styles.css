@@ -7,7 +7,7 @@
 }
 .container-main {
   max-width: 1600px;
-  margin: auto;
+  margin:auto;
 }
 .main-navigation {
   margin-top: 0px;
@@ -17,7 +17,6 @@
   margin-left: 93px;
   gap: 50px;
 }
-
 .mail-gsm-section {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -266,6 +265,12 @@ h3 {
   padding-top: 28px;
   gap: 12px;
 }
+
+.contacts-section li:hover{
+  color:#2196F3;
+  cursor: pointer;
+}
+
 .secondlogo {
   font-family: Raleway;
   font-size: 26px;
@@ -441,3 +446,5 @@ footer a {
 .container {
   border: 1px solid #eee;
 }
+
+
