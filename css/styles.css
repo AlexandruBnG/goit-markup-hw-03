@@ -143,7 +143,7 @@ h1 {
 }
 .index-button:hover {
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: #188ce8;
 }
 .paragraphs {
   background-color: var(--color);
@@ -155,6 +155,7 @@ h1 {
   justify-content: space-around;
   margin: left 0px;
   padding-left: 215px;
+  
 }
 .paragraphs ul {
   margin-top: 0px;
@@ -195,7 +196,7 @@ p {
   background-color: var(--color);
   font-weight: 648px;
   top: 1449px;
-  margin-left: 215px;
+  margin-left:215px;
 }
 .img-4-persons {
   margin-top: 0px;
@@ -402,6 +403,9 @@ footer a {
   padding-top: 0px;
   border-bottom: 1px solid #ececec;
 }
+#current{
+  color: #2196F3;
+}
 .container-main-portofolio {
   width: 1200px;
   margin: auto;
@@ -446,5 +450,3 @@ footer a {
 .container {
   border: 1px solid #eee;
 }
-
-
